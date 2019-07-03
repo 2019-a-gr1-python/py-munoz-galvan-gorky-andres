@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        h1{
+            background-color: blue;
+        }
+
+        #principal{
+            background-color: green;
+        }
+
+        .rojo{
+            background-color: red;
+        }
+
+        p.rojo{
+
+            background-color: rebeccapurple;
+        }
+        p.rojo.azul{
+            background-color: violet;
+        }
+
+        div > p.morado{
+            background-color: purple;
+        }
+
+        div > p.morado > span.blanco{
+            color: white;
+        }    
+    </style>
+</head>
+<body>
+    <h1>h1 1</h1>
+    <h1 id="principal">h1 2</h1>
+    <h1 class="rojo">h1 3</h1>
+
+    <p class="rojo">Parrafo rojo</p>
+    <p>Parrafo normal</p>
+    <p class="rojo azul">Parrafo rojo azul</p>
+    <p class="verde">Parrafo verde</p>
+
+    <p class="morado">Morado afuera</p>
+    <p class="cafe">Café afuera</p>
+    <div>
+        <p class="morado">Morado</p>
+        <p class="morado">
+            <span class="blanco">Morado span blanco</span>
+            <span>Morado</span>
+        </p>
+        <p class="cafe">Café</p>
+    </div>
+</body>
+</html>
